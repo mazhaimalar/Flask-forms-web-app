@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search</title>
+    <link rel=" stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>data set</h1>
+<table class="table.dataframe">
+    <thead>
+        <tr>
+            <th>student_id</th>
+            <th>student_name</th>
+            <th>gender</th>
+            <th>city</th>
+            <th>state</th>
+            <th>email_id</th>
+            <th>qualification</th>
+            <th>stream</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for value in stocklist%}
+        <tr>
+            <td>{{ value[0] }}</td>
+            <td>{{ value[1] }}</td>
+            <td>{{ value[2] }}</td>
+            <td>{{ value[3] }}</td>
+            <td>{{ value[4] }}</td>
+            <td>{{ value[5] }}</td>
+            <td>{{ value[6] }}</td>
+            <td>{{ value[7] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+    </body>

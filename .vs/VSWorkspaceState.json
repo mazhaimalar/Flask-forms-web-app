@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\forms",
+    "\\Include",
+    "\\Scripts",
+    "\\Scripts\\registration_forms",
+    "\\Scripts\\registration_forms\\app_forms",
+    "\\Scripts\\registration_forms\\app_forms\\static",
+    "\\Scripts\\registration_forms\\app_forms\\templates"
+  ],
+  "SelectedNode": "\\Scripts\\registration_forms\\app_forms\\app_forms.py",
+  "PreviewInSolutionExplorer": false
+}

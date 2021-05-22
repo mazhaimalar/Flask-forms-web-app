@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search</title>
+    <link rel=" stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="center">
+            <div class="card-body">
+
+                <div class="wrapper--w680">
+                    <div class="center">
+                        <form action="/studentid" message="post">
+                            
+
+                            <h1>Student Registry</h1>
+
+                        </form>
+
+                        <div class="center">
+                            <form action="/studentid" method="post">
+                                <input type="text" id="stuSearch" name="stuSearch" placeholder="enter the ID of the student">
+                                <button class="btn btn--radius-2 btn--blue" type="submit">Search</button>
+
+                            </form>
+                            <button class="btn btn--radius-2 btn--blue" >Search</button>
+
+                            <a href="/display">Display </a>
+                        </div>
+
+                    </div>
+                             </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
